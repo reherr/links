@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html>
  <head>
+    <style>
+      body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+    </style>
   <h1>My link in bio</h1>
  </head>
  <body>
   <div class="banner">
-    <img src="/thumbnails/smalljupiter.jpg" alt="rebecca profile pic">
+    <img src="/thumbnails/smalljupiter.jpg" alt="rebecca profile pic" class="banner-image">
+      <style>
+          .banner-image {
+            width: 128px;
+            height: 128px;
+            object-fit: cover;
+          }
+      </style>
   </div>
 
   <div class="name">
@@ -24,14 +37,14 @@
   </div>
 
   <div class="link">
-    <img src="/thumbnails/huskylinkinbio.jpg" alt="husky">
+    <img src="/thumbnails/huskylinkinbio.jpg" alt="husky" class="thumbnails">
 
     <a target="_blank" href="https://www.youtube.com/watch?v=i82528KGDdo">Husky Temper Tantrum
       — YouTube</a>
   </div>
 
   <div class="link">
-    <img src="/thumbnails/musiclife.jpg" alt="music">
+    <img src="/thumbnails/musiclife.jpg" alt="music" class="thumbnails">
 
     <a target="_blank"
       href="https://www.npr.org/2023/05/15/1175216958/karol-g-tiny-desk-concert">Karol G's Tiny Desk Concert— NPR</a>
@@ -39,10 +52,17 @@
 
   <div class="link">
     <img
-      src="/thumbnails/soupinpot.jpg" alt="soup">
+      src="/thumbnails/soupinpot.jpg" alt="soup" class="thumbnails">
 
     <a target="_blank" href="https://www.mexicoinmykitchen.com/carne-en-su-jugo/">Carne en su Jugo — Mexico in my Kitchen</a>
   </div>
-
+<style>
+  .thumbnails {
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    object-fit: cover;
+  }
+</style>
 </body>
 </html>
