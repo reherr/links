@@ -6,10 +6,11 @@
         padding-top: 40px;
         padding-bottom: 40px;
         background-color: #16161a;
+        display: flex;
+        justify-content: center;
 
       }
     </style>
-  <h1>My link in bio</h1>
  </head>
  <body>
   <div class="items">
@@ -21,7 +22,7 @@
             height: 128px;
             object-fit: cover;
             border-radius: 128px;
-          }
+            }
       </style>
   </div>
 
@@ -68,17 +69,27 @@
     border-radius: 48px;
     object-fit: cover;
   }
-   h1 {color: #fffffe}
-   .name {color: #fffffe}
-   .social-icons {color: #94a1b2}
-   .link {background-color: #2cb67d}
-   .link a {color: #010101}
+   .name {color: #fffffe;
+         display:flex;
+          justify-content: center;}
+   .social-icons {color: #94a1b2;
+                  display:flex;
+                  justify-content: space-around;}
+   .link {background-color: #2cb67d;
+          display: flex;
+          align-items: center;}
+   .link a {color: #010101;
+            text-align: center;
+            flex-grow: 1;
+            text-decoration: none;}
    .items{
     display:flex;
     flex-direction:column;
     gap: 30px;
     max-width: 640px;
+    flex-grow: 1;
    }
+   * {border: thin red solid;}
 </style>
 </body>
 </html>
