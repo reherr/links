@@ -12,6 +12,7 @@
   <h1>My link in bio</h1>
  </head>
  <body>
+  <div class="items">
   <div class="banner">
     <img src="/thumbnails/smalljupiter.jpg" alt="rebecca profile pic" class="banner-image">
       <style>
@@ -59,6 +60,7 @@
 
     <a target="_blank" href="https://www.mexicoinmykitchen.com/carne-en-su-jugo/">Carne en su Jugo — Mexico in my Kitchen</a>
   </div>
+</div>
 <style>
   .thumbnails {
     width: 48px;
@@ -68,8 +70,15 @@
   }
    h1 {color: #fffffe}
    .name {color: #fffffe}
-   .social-icons{ color: #94a1b2}
-   .link {color: #7f5af0}
+   .social-icons {color: #94a1b2}
+   .link {background-color: #2cb67d}
+   .link a {color: #010101}
+   .items{
+    display:flex;
+    flex-direction:column;
+    gap: 30px;
+    max-width: 640px;
+   }
 </style>
 </body>
 </html>
